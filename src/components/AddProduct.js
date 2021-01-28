@@ -81,7 +81,7 @@ class AddProduct extends Component {
         }
 
         this.props.onAddProduct(newProduct)
-        this.props.history.push('/viewProduct')
+        this.props.history.push('/admin')
     }
     }
     render() {
@@ -167,7 +167,7 @@ class AddProduct extends Component {
                         </div>
                     </div>
                     <div className={(this.props.returnedMessage === '') ? '' : "alert"} role="alert">
-                        {this.props.returnedMessage}
+                        {/* {this.props.returnedMessage} */}
                     </div>
                 </div>
             </div>

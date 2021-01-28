@@ -23,6 +23,11 @@ class ViewUsers extends Component {
             )
         })
     }
+    else{
+        return (
+            <div><h4>Nothing Found!!</h4></div>
+        )
+    }
         return (
              <div>
                     <div className="trn-table-div" id="adminView">

@@ -52,7 +52,7 @@ class AddingFeedback extends React.Component {
         feedbackDescription: this.feedbackDescription.current.value
       }
       this.props.onAddFeedback(Feedback)
-      this.props.clearState()
+      this.props.history.push('/user')
     }
   }
   render() {
@@ -95,7 +95,7 @@ class AddingFeedback extends React.Component {
                 </div>
                 <div className="row mt-3">
                   <div className="col">
-                    <button
+                    <button type='button'
                       className="btn btn-primary btn-sm"
                       onClick={this.addFeedback.bind(this)}
                     >

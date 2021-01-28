@@ -47,12 +47,13 @@ class AddReview extends React.Component {
             //  description:this.state.description
         };
         this.props.onSubmitReview(this.state.userId, this.state.productId, Review)
-        let check = this.props.returnedMessage.split(' ')
-        if (check[0] === 'Successfully' || check[4] === 'Already') {
-            setTimeout(() => {
-                <Redirect to='/user' />
-            }, 100)
-        }
+        // let check = this.props.returnedMessage.split(' ')
+        // if (check[0] === 'Successfully' || check[4] === 'Already') {
+        //     setTimeout(() => {
+        //         <Redirect to='/user' />
+        //     }, 100)
+        // }
+        this.props.history.push('/user')
     }
     render() {
         const { rate, description } = this.state

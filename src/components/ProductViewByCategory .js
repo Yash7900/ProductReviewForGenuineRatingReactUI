@@ -64,27 +64,7 @@ class ProductViewByCategory extends Component {
                         </div>
                 </div>
                 
-                // <tr key={index}>
-                           
-                //     <td>{product.productName}</td>
-                //     <td>{product.category}</td>
-                //     <td>{product.sellerName}</td>
-                //     <td>{product.description}</td>
-                //     <td>{product.price}</td>
-                    // <td>{product.review.map((review,index)=>
-                    // <ul key={index}>
-                    //    {review.rate}
-                    // </ul>
-                    // )}</td>
-                    // <td>{product.review.map((review,index)=>
-                    // <ul key={index}>
-                    //     {review.description}
-                    // </ul>
-                //     )}</td>
-                //     <td >
-                //         <button onClick={this.review.bind(this,product)} className="btn btn-primary">Review</button>
-                // </td>
-                // </tr>
+               
             )
         })
     }

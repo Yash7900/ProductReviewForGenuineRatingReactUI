@@ -9,51 +9,6 @@ import ViewUsers from './ViewUsers';
 import Logout from './Logout'
 
 
-// function AdminRouter() {
-//     return (
-//         <Router>
-//             <div>
-//                 <div>
-//                     <br></br>
-//                     <h1 index="main-heading">PRODUCT REVIEW GENUINE RATING
-//                     <FaUserCircle id="icon" />
-//                      </h1>
-//                 </div>
-//                 <div>
-//                     <nav class="navbar navbar-light">
-//                         <Link className="navbar-brand" to="viewUser">View User</Link>
-//                         <Link className="navbar-brand" to="viewProduct">View Product</Link>
-//                         <Link className="navbar-brand" to="viewFeedback">View FeedBack</Link>
-//                         <Link className="navbar-brand" to="addProduct">Add Product</Link>
-//                     </nav>
-//                 </div>
-
-//                 <div class="footer">
-
-//                     <p> All Rights Reserved.
-//                     Product Review is Powered by Group 4</p>
-//                 </div>
-
-
-//                 < Switch >
-//                     <Route exact path="/viewUser" >
-//                             <ViewUsers/>
-//                     </Route >
-//                     <Route exact path="/viewProduct" >
-//                     <AdminProductView></AdminProductView>
-//                     </Route >
-//                     <Route exact path="/viewFeedback" >
-//                             <ViewFeedback/>
-//                     </Route >
-//                     <Route exact path="/addProduct" >
-//                         <AddProduct></AddProduct>
-//                     </Route >
-//                 </Switch >
-//             </div>
-//         </Router >
-//     )
-// }
-// export default AdminRouter
 export class AdminRouter extends Component {
     constructor(props) {
         super(props)

@@ -56,6 +56,11 @@ export class AdminProductView extends Component {
                 )
             })
         }
+        else{
+            return(
+                <div><h4>No Product Found</h4></div>
+            )
+        }
             return (
                 <div>  <h2>{this.props.returnedMessage}</h2>
                     <div id="adminProductView" id="adminView">
