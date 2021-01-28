@@ -93,27 +93,6 @@ class ProductViewByCategory extends Component {
                         
                                     </div> 
                                     </div>
-                {/* <div className="tra-table-div" id="productViewByCategory">
-                    <table className="table table-info trainee-table">
-                        <thead>
-                            <tr>
-                               
-                                <th scope="col">Name</th>
-                                <th scope="col">Category</th>
-                                <th scope="col">Seller</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Rate</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Action</th>
-                                
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {productList}
-                        </tbody>
-                    </table>
-                </div> */}
             </div>
         )
         }
